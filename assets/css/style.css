@@ -1,0 +1,52 @@
+.container{
+    margin:auto;
+    width:50%;
+    border:3px;
+    border-color:gray;
+}
+.the {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 80px;
+    padding:20px;
+    padding-bottom: 5px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.office {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 140px;
+    padding:20px;
+    padding-top: 5px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.rotate {
+    transform: rotate(-35deg);
+    color: yellow;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 85px;
+    position: relative;
+    left: 400px;
+    top:-300px;
+}
+.container2{
+    width:80%;
+    border:dotted;
+    height:400px;
+    margin:auto;
+}
+.youguessed,
+.actualWordBlanks,
+.lettersGuessed,
+.numberLosses
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 50px;
+    margin:auto;
+    text-align: center;
+}
